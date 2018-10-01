@@ -1,0 +1,38 @@
+.container {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  .transactions {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    h1 {
+      border-bottom: 1px solid black;
+      padding-bottom: 15px;
+    }
+    .filters {
+      width: 200px;
+      float: left;
+      margin: 0;
+      .account-name-filters, .transaction-type-filters {
+        background-color: #eff1f2;
+        padding: 10px;
+        display: inline-block;
+        white-space: nowrap;
+        label {
+          margin-left: 5px;
+        }
+      }
+      .transaction-type-filters {
+        margin-top: 10px;
+      }
+    }
+    .table {
+      width: 800px;
+      float: right;
+      thead th {
+        border: none;
+      }
+    }
+  }
+}
